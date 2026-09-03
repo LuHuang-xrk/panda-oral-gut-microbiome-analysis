@@ -1,0 +1,53 @@
+
+
+Forms_Biofilms
+Number of samples in each treatment group:
+
+GPF GPO MDF MDO RBF RBO RPF RPO 
+ 26  35  44  27  32  31  31  28 
+
+Proportion with phenotype (mean):
+       GPF        GPO        MDF        MDO        RBF        RBO        RPF 
+0.75400416 0.78559763 0.15712178 0.28432958 0.02680944 0.17508699 0.53650919 
+       RPO 
+0.30572502 
+
+Proportion with phenotype (median):
+        GPF         GPO         MDF         MDO         RBF         RBO 
+0.857277948 0.880446424 0.145624862 0.278247326 0.006114237 0.121712752 
+        RPF         RPO 
+0.606311908 0.271808189 
+
+Standard deviation:
+       GPF        GPO        MDF        MDO        RBF        RBO        RPF 
+0.26309587 0.23533726 0.10084554 0.23936130 0.05225605 0.16908089 0.31148140 
+       RPO 
+0.21016125 
+
+Pairwise Mann-Whitney-Wilcoxon Tests were performed.
+Pairwise p-values are:
+GPF_vs_GPO GPF_vs_MDF GPF_vs_MDO GPF_vs_RBF GPF_vs_RBO GPF_vs_RPF GPF_vs_RPO 
+6.9914e-01 2.6916e-13 1.2111e-07 1.4646e-09 4.0042e-10 6.9374e-03 6.3747e-08 
+GPO_vs_MDF GPO_vs_MDO GPO_vs_RBF GPO_vs_RBO GPO_vs_RPF GPO_vs_RPO MDF_vs_MDO 
+5.2210e-13 1.5991e-08 3.0507e-12 3.6121e-10 6.0221e-04 2.7977e-08 1.4108e-01 
+MDF_vs_RBF MDF_vs_RBO MDF_vs_RPF MDF_vs_RPO MDO_vs_RBF MDO_vs_RBO MDO_vs_RPF 
+2.1427e-10 9.0214e-01 6.4869e-07 2.0410e-04 1.8589e-08 2.9874e-01 3.0580e-03 
+MDO_vs_RPO RBF_vs_RBO RBF_vs_RPF RBF_vs_RPO RBO_vs_RPF RBO_vs_RPO RPF_vs_RPO 
+6.2209e-01 6.7396e-09 9.9316e-09 6.0443e-10 1.2746e-05 1.7479e-03 4.6402e-03 
+
+FDR-corrected pairwise p-values are:
+  GPF_vs_GPO   GPF_vs_MDF   GPF_vs_MDO   GPF_vs_RBF   GPF_vs_RBO   GPF_vs_RPF 
+7.250362e-01 7.309427e-12 2.260731e-07 5.126252e-09 1.868616e-09 8.445525e-03 
+  GPF_vs_RPO   GPO_vs_MDF   GPO_vs_MDO   GPO_vs_RBF   GPO_vs_RBO   GPO_vs_RPF 
+1.274945e-07 7.309427e-12 4.070383e-08 2.847288e-11 1.868616e-09 8.874665e-04 
+  GPO_vs_RPO   MDF_vs_MDO   MDF_vs_RBF   MDF_vs_RBO   MDF_vs_RPF   MDF_vs_RPO 
+6.025780e-08 1.645923e-01 1.499858e-09 9.021423e-01 1.135208e-06 3.174876e-04 
+  MDO_vs_RBF   MDO_vs_RBO   MDO_vs_RPF   MDO_vs_RPO   RBF_vs_RBO   RBF_vs_RPF 
+4.337540e-08 3.345910e-01 4.077370e-03 6.699468e-01 2.096762e-08 2.780852e-08 
+  RBF_vs_RPO   RBO_vs_RPF   RBO_vs_RPO   RPF_vs_RPO 
+2.417733e-09 2.099419e-05 2.447063e-03 5.905747e-03 
+
+Kruskal-Wallis Test was performed.
+
+Group p-value is:
+6.093108e-30 
