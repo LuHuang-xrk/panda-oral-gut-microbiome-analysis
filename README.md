@@ -1,15 +1,20 @@
 # Panda oral–gut microbiome analysis
 
-This repository contains selected key analysis scripts associated with the study:
+This repository contains the data and analysis scripts associated with the study:
 
 "Putative trait-based retention of oral-derived microbes along the oral–gut axis in bamboo-eating pandas"
 
-## Scripts
+## Repository structure
 
-- `PICRUSt2.pipe.sh` – Shell script used in the PICRUSt2 analysis workflow.
-- `PICRUSt2_Result_format.pl` – Perl script used for formatting PICRUSt2 output.
-- `pipe_byTable.pl` – Perl script used in the analysis workflow.
+- `data/` – Shared data files used in the study.
+- `fig1/` – Data and R scripts used to generate Figure 1.
+- `fig2/` – Data and analysis scripts used to generate Figure 2.
+- `script/` – General analysis scripts used in the study.
+
+## Raw sequencing data
+
+The raw sequencing data are available in the NCBI BioProject database under accession number **PRJNA1491994**.
 
 ## Notes
 
-These scripts represent selected key components of the analysis workflow and are provided to improve transparency and reproducibility.
+The figure-specific folders contain the corresponding input data and analysis scripts used to reproduce the main figures.
